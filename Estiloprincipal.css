@@ -1,0 +1,203 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 15, 112);
+    font-family: sans-serif;
+    align-items: center;
+    padding: 5px;
+    position: fixed;
+    width: 1520px;
+    padding-top: -20px;
+}
+
+header a {
+    text-decoration: none;
+    color: azure;
+    font-weight: 400;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: large;
+}
+
+header a:hover{
+    color: orange;
+}
+
+header div{
+    align-items: center;
+}
+
+.barra-principal{
+    display: flex;
+}
+
+.imagen-logo{
+    height: 70px;
+    width: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.contenedor{
+    padding-top: 2.3cm;
+    background-color: whitesmoke;
+    /* rgb(161, 207, 242) */
+}
+
+/* fin de barra principal */
+
+/* Estilo para contenido */
+.subtitulo{
+    display: grid;
+    place-items: center; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+
+.info{
+    display: grid;
+    place-items: center;
+}
+
+.info img{
+    margin: 20px;
+    border: 2px solid black;
+
+    
+}
+
+.info h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    font-size: larger;
+
+}
+
+.habilidades{
+    padding-bottom: 15px;
+}
+
+.info p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* estilo de pie de pagina */
+
+.AllFoot{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(15, 15, 112);
+}
+.footerContenedor{
+    width: 100%;
+    padding: 70px, 30px, 20px;
+}
+
+.socialContenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.socialContenedor a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialContenedor a i {
+    font-size: 1.5em;
+    color: rgb(15, 15, 112);
+    opacity: 0.9;
+}
+
+/* Efectos en los iconos  */
+
+.socialContenedor a:hover i{
+    color: rgb(205, 142, 25);
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+
+.footerTexto{
+    margin: 30px 0;
+}
+
+.footerTexto ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footerTexto ul li{
+    color:  rgb(15, 15, 112);
+}
+
+.footerTexto ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.footerTexto ul li a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.copy{
+    background-color: rgb(15, 15, 112);
+    padding: 20px;
+    text-align: center;
+}
+
+.copy p{
+    color: white;
+    background-color: rgb(13, 13, 95);
+}
+
+.hecho{
+    opacity: o.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
